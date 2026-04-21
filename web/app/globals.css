@@ -85,10 +85,14 @@ html, body {
   transform: translateX(2px);
 }
 
-/* Subtle image placeholder while TopView assets are generated */
+/* Subtle image placeholder — backdrop gradient shown if image not yet set.
+   Important: use `background-image` (not `background:` shorthand) so inline
+   style backgroundImage + Tailwind bg-cover/bg-center actually take effect. */
 .img-placeholder {
-  background:
-    linear-gradient(135deg, #F1FAF9 0%, #DDF2F0 100%);
+  background-image: linear-gradient(135deg, #F1FAF9 0%, #DDF2F0 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
