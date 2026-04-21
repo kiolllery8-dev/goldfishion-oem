@@ -5,7 +5,7 @@ export const site = {
   slogan: 'From Formula to Shelf — Beauty Crafted With You',
   sloganZh: '從配方到上架，一站打造你的美妝品牌',
   tagline: 'ODM / OEM｜化妝品代工一條龍',
-  phone: '04-0000-0000',
+  phone: '04-2435-6678',
   email: 'contact@goldfishion.example',
   line: '@goldfishion',
   address: '台灣｜詳細地址待填',
