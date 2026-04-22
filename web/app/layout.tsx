@@ -7,7 +7,10 @@ import { site } from '@/lib/site';
 export const metadata: Metadata = {
   title: `${site.nameEn}｜${site.tagline}`,
   description: `${site.nameZh} — ${site.sloganZh}。化妝品 ODM / OEM 一條龍：包裝設計、配方研發、內容產出、行銷企劃、市場趨勢分析。`,
-  metadataBase: new URL('https://goldfishion.example.com'),
+  metadataBase: new URL('https://goldfishion.intelliverse.tw'),
+  verification: {
+    google: 'eBQecTnxY_7xwmP5sqWgCnpTVLZg47BsjpWEtGVn-Uk',
+  },
 };
 
 export default function RootLayout({
