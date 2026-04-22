@@ -12,10 +12,8 @@ export const site = {
   hours: '週一至週五 09:00–18:00',
 };
 
-export const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
-/** Prefix a public asset path with the GitHub Pages basePath at build time. */
+/** Public asset path helper. Served from root under custom domain. */
 export function asset(p: string) {
   if (!p.startsWith('/')) p = '/' + p;
-  return `${basePath}${p}`;
+  return p;
 }
