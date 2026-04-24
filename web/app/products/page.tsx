@@ -1,6 +1,19 @@
+import type { Metadata } from 'next';
 import PageHeader from '@/components/PageHeader';
 import CTAStrip from '@/components/CTAStrip';
 import { asset } from '@/lib/site';
+
+export const metadata: Metadata = {
+  title: '代工品項｜油類、液態、乳霜、面膜、潔顏香氛',
+  description: '舒園國際化妝品代工品項涵蓋五大類：油類保養（精華油、按摩油）、液態保養（化妝水、精華液、噴霧）、乳霜乳液（面霜、身體乳、眼霜）、面膜敷體（片狀、泥膜、腳膜）、潔顏沐浴與香氛寵物等。',
+  keywords: ['精華油代工', '精華液代工', '面霜代工', '面膜代工', '潔顏代工', '香氛代工', '寵物保養代工'],
+  alternates: { canonical: '/products/' },
+  openGraph: {
+    title: '化妝品代工品項 — 5 大類、數十種品項',
+    description: '油類、液態、乳霜、面膜、潔顏、沐浴、香氛、寵物保養等跨品類代工服務。',
+    url: 'https://goldfishion.intelliverse.tw/products/',
+  },
+};
 
 const categories = [
   {

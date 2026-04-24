@@ -1,6 +1,19 @@
+import type { Metadata } from 'next';
 import PageHeader from '@/components/PageHeader';
 import CTAStrip from '@/components/CTAStrip';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: '趨勢洞察｜化妝品代工與品牌知識',
+  description: '舒園國際分享日常累積的化妝品代工觀察：OEM 與 ODM 的差異、新品牌 MOQ 策略、一支新商品的素材清單、2026 保養品包裝趨勢等實戰內容。',
+  keywords: ['OEM ODM 差別', 'MOQ 策略', '化妝品趨勢', '保養品包裝趨勢', '新品牌上架'],
+  alternates: { canonical: '/insights/' },
+  openGraph: {
+    title: '化妝品代工與品牌知識洞察',
+    description: '把日常與客戶討論的觀察整理出來，讓還沒合作的品牌也先看得到。',
+    url: 'https://goldfishion.intelliverse.tw/insights/',
+  },
+};
 
 const posts = [
   {

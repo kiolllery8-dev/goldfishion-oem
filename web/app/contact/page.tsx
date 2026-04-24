@@ -1,5 +1,18 @@
+import type { Metadata } from 'next';
 import PageHeader from '@/components/PageHeader';
 import { site } from '@/lib/site';
+
+export const metadata: Metadata = {
+  title: '聯絡諮詢｜1 個工作天內回覆',
+  description: '化妝品代工諮詢：舒園國際 Gold Fishion ｜電話 04-2435-6678 ｜Email salesgoldfishion@gmail.com ｜台中市太平區精美路 122 號。留下需求 1 個工作天內回覆報價與樣品方案。',
+  keywords: ['化妝品代工諮詢', '化妝品代工報價', '台中化妝品工廠', '保養品代工聯絡'],
+  alternates: { canonical: '/contact/' },
+  openGraph: {
+    title: '聯絡舒園國際 Gold Fishion — 化妝品代工諮詢',
+    description: '1 個工作天內回覆報價與樣品方案。',
+    url: 'https://goldfishion.intelliverse.tw/contact/',
+  },
+};
 
 export default function ContactPage() {
   return (

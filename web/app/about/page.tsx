@@ -1,6 +1,18 @@
+import type { Metadata } from 'next';
 import PageHeader from '@/components/PageHeader';
 import CTAStrip from '@/components/CTAStrip';
 import { asset } from '@/lib/site';
+
+export const metadata: Metadata = {
+  title: '關於我們｜舒園國際化妝品 ODM / OEM 代工',
+  description: '舒園國際開發（Gold Fishion）是台灣化妝品 ODM / OEM 一條龍代工合作夥伴，從配方研發、包裝設計、內容產出到行銷企劃，陪創業者與品牌把美妝商品做到上架。台中設廠，GMP / ISO 22716 品保。',
+  alternates: { canonical: '/about/' },
+  openGraph: {
+    title: '關於舒園國際 Gold Fishion — 不只做代工，陪你做品牌',
+    description: '台灣化妝品 ODM / OEM 一條龍代工。配方、包裝、內容、行銷、通路一站式整合。',
+    url: 'https://goldfishion.intelliverse.tw/about/',
+  },
+};
 
 const values = [
   { t: '誠信', d: '配方、原料、成本透明，不打模糊仗。' },

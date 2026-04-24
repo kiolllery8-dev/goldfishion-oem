@@ -1,5 +1,18 @@
+import type { Metadata } from 'next';
 import PageHeader from '@/components/PageHeader';
 import CTAStrip from '@/components/CTAStrip';
+
+export const metadata: Metadata = {
+  title: '合作場景｜品牌新創、電商擴張、通路 PB、聯名合作',
+  description: '舒園國際服務過的四種典型合作：品牌新創從 0 到 1、電商品牌擴張品項、連鎖通路 PB 自有品牌、跨業聯名合作。不論創業第一天或年銷千萬都能合作。',
+  keywords: ['品牌新創代工', 'PB 自有品牌', '聯名代工', '化妝品 MOQ', '新品牌 ODM'],
+  alternates: { canonical: '/applications/' },
+  openGraph: {
+    title: '四種典型化妝品代工合作場景',
+    description: '品牌新創、電商擴張、通路 PB、聯名合作——看哪種模式適合你。',
+    url: 'https://goldfishion.intelliverse.tw/applications/',
+  },
+};
 
 const cases = [
   {

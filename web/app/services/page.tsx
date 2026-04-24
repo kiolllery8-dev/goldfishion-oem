@@ -1,5 +1,18 @@
+import type { Metadata } from 'next';
 import PageHeader from '@/components/PageHeader';
 import CTAStrip from '@/components/CTAStrip';
+
+export const metadata: Metadata = {
+  title: '一條龍服務｜化妝品 ODM / OEM 六大階段',
+  description: '舒園國際提供化妝品 ODM / OEM 六大階段服務：市場洞察與品牌定位、配方研發、包裝設計、內容產出、量產品保、通路上架與行銷企劃。從 0 到 1 陪你把商品做起來。',
+  keywords: ['化妝品代工流程', 'ODM 流程', 'OEM 流程', '配方研發', '包裝設計', '行銷企劃', '量產品保'],
+  alternates: { canonical: '/services/' },
+  openGraph: {
+    title: '一條龍代工：從概念到上架的六大階段',
+    description: '配方研發、包裝設計、內容產出、量產品保、通路上架、行銷企劃一站整合。',
+    url: 'https://goldfishion.intelliverse.tw/services/',
+  },
+};
 
 const services = [
   {
