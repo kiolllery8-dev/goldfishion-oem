@@ -6,9 +6,9 @@ export const site = {
   sloganZh: '從配方到上架，一站打造你的美妝品牌',
   tagline: 'ODM / OEM｜化妝品代工一條龍',
   phone: '04-2435-6678',
-  email: 'contact@goldfishion.example',
+  email: 'salesgoldfishion@gmail.com',
   line: '@goldfishion',
-  address: '台灣｜詳細地址待填',
+  address: '台中市太平區精美路 122 號',
   hours: '週一至週五 09:00–18:00',
 };
 
